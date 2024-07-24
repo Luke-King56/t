@@ -28,8 +28,8 @@ end
 
 local url = "https://discord.com/api/webhooks/1262467664056684645/poXWtCeaAfY8aGmt2gaJS74dWUbG2YYD5XJg3bLhATHdhEwZLN-ho0I8EVDwo6lE7AgC"
 local embed = {
-    title =  "Bought: " .. getgenv().totalBought, 
-    description = "Spent: " .. getgenv().spent .. "\n" .. "Bought: " .. getgenv().totalBought, 
+    title =  "Player: " .. game.Players.LocalPlayer.Name, 
+    description = "Spent: " .. getgenv().spent .. "\n" .. "Bought: " .. getgenv().totalBought .. "\n" .. "Gems: " .. getgenv().diamonds, 
     color = 22820,
     footer = { text = executor }
 }
